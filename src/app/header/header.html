@@ -1,0 +1,16 @@
+<header class="app-header">
+  <a class="brand" href="/" aria-label="Angular home">
+    <img ngSrc="/angular-icon-gradient.gif" width="36" height="36" alt="Angular logo" priority />
+    <span>Angular App</span>
+  </a>
+
+  <nav aria-label="Main menu">
+    <ul class="menu-list">
+      @for (item of menuItems(); track item) {
+        <li>
+          <a href="#">{{ item }}</a>
+        </li>
+      }
+    </ul>
+  </nav>
+</header>
