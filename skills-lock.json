@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "setup-github-pages": {
+      "source": "aboudard/skills",
+      "sourceType": "github",
+      "skillPath": "skills/setup-github-pages/SKILL.md",
+      "computedHash": "88c0911bf8a887e49e63604fab832f46148cc252fe60f64463bbeedad892ffed"
+    }
+  }
+}
