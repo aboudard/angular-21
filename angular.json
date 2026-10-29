@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "test21": {
+    "angular21": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "test21:build:production"
+              "buildTarget": "angular21:build:production"
             },
             "development": {
-              "buildTarget": "test21:build:development"
+              "buildTarget": "angular21:build:development"
             }
           },
           "defaultConfiguration": "development"
